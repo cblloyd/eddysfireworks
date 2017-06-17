@@ -116,8 +116,21 @@
 	align-items: center;
 	font-family: 'Righteous', cursive;
 }
+
+.boom{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
 .boom img{
-	width:60%;
+width:50%;
+}
+
+.boom h1{
+	color:#fff;
+	font-size: 3.5rem;
+	padding-left: 25px;
 }
 .landing-inner h1{
 	font-size: 3rem;
@@ -127,22 +140,24 @@
 	font-size: 2rem;
 }
 
-.landing-inner .landing-location{
-	padding-top: 40px;
+
+
+.landing-location h4{
+
+	padding-left: 20px;
 }
 
-.landing-location h3{
-	text-align: center;
-	font-size: 1rem;
-	border: solid 2px black;
-	margin-bottom: 20px;
-}
 
-.landing-location iframe{
-	width: 100%;
-	border-width: 2px;
-	border-color: #000;
-}
+.landing-location{
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: center;
+	width: 80%;
+	padding-top: 15px;
+	align-items: center;
+text-align: center;}
+
 
 .landing-title{
 	padding-top: 10px;
@@ -201,7 +216,6 @@
 #about{
 	display: flex;
 	justify-content: center;
-	border-top: solid 3px #000;
 	font-family: 'Righteous', cursive;
 	width: 100%;
 }
