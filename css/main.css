@@ -116,7 +116,9 @@
 	align-items: center;
 	font-family: 'Righteous', cursive;
 }
-
+.boom img{
+	width:60%;
+}
 .landing-inner h1{
 	font-size: 3rem;
 }
@@ -156,12 +158,34 @@
 	padding-top: 30px;
 }
 
+.yelp i{
+	color:red;
+	padding: 10px
+}
+
 .facebook i{
 	color:#3b5998;
+	padding: 10px
 }
 
 .insta i{
 	color:#000;
+	padding: 10px
+}
+
+.yelp i:hover{
+	color:#fff;
+	cursor: pointer;
+}
+
+.facebook i:hover{
+	color:#fff;
+	cursor: pointer;
+}
+
+.insta i:hover{
+	color:#fff;
+	cursor: pointer;
 }
 
 .landing-social .cards{
