@@ -1,0 +1,217 @@
+@-ms-viewport{
+  width: device-width;
+}
+/* NOTE: HEADER MENU WITH NAV AND LOGO */
+.navbar{
+	font-family: 'Righteous', cursive;
+	font-size: 1.5rem;
+	color:#000;
+	background-color: #FFF;
+}
+
+.navbar .container-fluid{
+	padding: 0px;
+}
+
+.navbar-nav{
+	width: 100%;
+}
+
+.navbar-right{
+	text-align: center;
+}
+.navbar-default .navbar-toggle{
+	border-color: #000;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #000;
+}
+
+.navbar-toggle{
+	border: solid 2px #000;
+}
+
+.container-fluid{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.navbar-brand{
+	height: 150px;
+	padding-right:  40px;
+}
+
+.navbar-brand img{
+	height: 100%;
+}
+
+.navbar-collapse{
+	border: none;
+	padding: 0px;
+	border-color: #000;
+}
+
+.navbar-button{
+	padding: 0px;
+}
+
+.navbar-collapse ul{
+	margin: 0px;
+	font-size: 1.2rem;
+}
+
+.navbar-header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.navbar-default .navbar-nav ul li a{
+	color: #000;
+}
+
+.navbar-default .navbar-nav ul li:hover{
+	border: solid 2px #000;
+	border-radius: 20px;
+}
+
+.navbar-default .navbar-nav ul li a:hover{
+}
+
+.collapsed{
+	height: 100px;
+	padding-left: 10px;
+}
+
+.icon-bar{
+	padding-top: 5px;
+	margin: 0 auto;
+}
+
+.collapsed .navbar-header{
+	width: 60%;
+}
+
+
+/* NOTE: begin page */
+
+.landing{
+	background-image: url("../images/background.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 750px;
+	padding-top: 150px;
+	display: flex;
+	justify-content: center;
+}
+
+.landing-inner{
+	height: 95%;
+	width: 90%;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: 'Righteous', cursive;
+}
+
+.landing-inner h1{
+	font-size: 3rem;
+}
+
+.landing-inner h2{
+	font-size: 2rem;
+}
+
+.landing-inner .landing-location{
+	padding-top: 40px;
+}
+
+.landing-location h3{
+	text-align: center;
+	font-size: 1rem;
+	border: solid 2px black;
+	margin-bottom: 20px;
+}
+
+.landing-location iframe{
+	width: 100%;
+	border-width: 2px;
+	border-color: #000;
+}
+
+.landing-title{
+	padding-top: 10px;
+
+}
+
+.landing-title h2{
+	color:#fff;
+}
+.landing-social{
+	display: flex;
+	justify-content: space-around;
+	padding-top: 30px;
+}
+
+.facebook i{
+	color:#3b5998;
+}
+
+.insta i{
+	color:#000;
+}
+
+.landing-social .cards{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.cards i{
+	color:#000;
+}
+
+#about{
+	display: flex;
+	justify-content: center;
+	border-top: solid 3px #000;
+	font-family: 'Righteous', cursive;
+	width: 100%;
+}
+
+.eddy{
+	display: flex;
+	justify-content:space-around;
+
+}
+
+.eddy-pic{
+
+}
+.eddy-pic img{
+	width: 100%;
+}
+
+.eddy-about{
+	padding-left: 20px;
+}
+
+.about h4{
+	font-size: 1.8em;
+	color:red;
+	padding-bottom: 15px;
+}
+
+.eddy p{
+	line-height: 1.8em;
+	width: 70%;
+}
+
+.eddy h1{
+	font-size: 2.5rem;
+}
+
+#myCarousel{padding-top: 180px;}
